@@ -21,7 +21,7 @@ You need Python 3, OpenCV (cv2), Numpy, argparse, and Pickle
 {picklepath} : path to pickle file to serialize the numpy array of ROI
 
 ```
-python ROI_selector.py --image {imagepath} --roi {picklepath}
+$ python ROI_selector.py --image {imagepath} --roi {picklepath}
 ```
 
 For example:
