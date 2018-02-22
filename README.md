@@ -45,3 +45,9 @@ $ python ROI_selector.py --image example.jpg --roi example.p
 [(107, 129), (57, 272)]
 Saved Regions of Interest as Pickle file in: example.p
 ```
+
+### Pickle file format
+
+Unloading the pickle file will give you one N by 4 matrix where N is the number of regions of interest selected in the picture. 
+
+Every row [ a b c d ] is in fact a rectangular ROI defined by the points (a,b) and (c,d)
